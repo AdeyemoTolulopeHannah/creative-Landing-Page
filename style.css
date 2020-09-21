@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(15, 101, 199);
+    min-height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 20px;
+    transition: 5s;
+
+
+}
+.logo img{
+    margin: 5px 5px 15px 5px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    color: wheat;
+    text-decoration: none;
+    padding-right: 5px;
+}
+.nav-links li a:hover{
+    color: red;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+     align-content: center;
+     margin-top: 150px;
+}
+.textbox{
+    padding: 15px;
+    margin: 10px;
+}
+.textbox h1{
+    color: seashell;
+    font-size: 2em;
+}
+.textbox h1 span{
+    color: red;
+}
+.textbox p{
+    color: seashell;
+    font-weight: 300s;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+.textbox a{
+    text-decoration: none;
+    background-color:black;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 200px;
+}
+.textbox a:hover{
+    background-color: red;
+}
+.content .mg{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:50px;
+}
+.mg img{
+    max-width: 260px;
+    height: 250px;
+}
+.dope{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.dope li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.dope li:hover{
+    transform: translateY(-15px);
+}
+.dope li img{
+    max-width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

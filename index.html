@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pepsi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="sec">
+    <section>
+  <nav class="navbar">
+       <div class="logo"><img src="images/logo.png" alt=""></div>
+       <div class="nav-links">
+           <ul>
+               <li>
+                   <a href="#"> Home</a>
+                   <a href="#"> Home</a>
+                   <a href="#"> Home</a>
+                   <a href="#"> Home</a>
+                   <a href="#"> Home</a>
+               </li>
+           </ul>
+       </div>
+
+  </nav>
+</section>
+  <section >
+      <div class="content">
+          <div class="textbox">
+          <h1> THAT'S WHAT <br> <span>i like</span> </h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae consequatur, voluptate a voluptas suscipit, ut unde magni in sint sit eaque, amet assumenda fuga. Natus quibusdam unde in alias porro.</p>
+            <a href="#"> view all product</a>
+        </div>
+        <div class="mg">
+            <img src="images/pepsi001.png" alt="" class="pepsi">
+        </div>
+    </div>
+    <ul class="dope">
+        <li><img src="images/pepsi001.png" alt="" srcset="" onclick="imgslider('images/pepsi001.png');changeBgcolor('#0062be')"></li>
+        <li><img src="images/pepsi002.png" alt="" srcset="" onclick="imgslider('images/pepsi002.png');changeBgcolor('#060c2c')"></li>
+        <li><img src="images/pepsi003.png" alt="" srcset="" onclick="imgslider('images/pepsi003.png');changeBgcolor('#1e1e1e')"></li>
+        
+    </ul>
+  </section>
+  <script>
+      function imgslider(anything) {
+          document.querySelector('.pepsi').src = anything;
+      }
+      function changeBgcolor(color) {
+          const sec = document.querySelector ('.sec');
+          sec.style.background = color;
+      }
+  </script>
+</body>
+</html>
